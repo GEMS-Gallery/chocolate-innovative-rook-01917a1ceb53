@@ -1,0 +1,5 @@
+service : {
+  getGreeting: () -> (text) query;
+  getMetadata: () -> (int, nat) query;
+  updateGreeting: (text) -> ();
+}
